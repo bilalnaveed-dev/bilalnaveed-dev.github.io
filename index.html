@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Bilal Naveed | MERN Stack Developer & AI/ML Enthusiast</title>
+  
+  <!-- Browser Favicon (Inline Cyan Code Brackets) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2300f0ff' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><polyline points='16 18 22 12 16 6'/><polyline points='8 6 2 12 8 18'/></svg>">
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio of Muhammad Bilal Naveed, a Full Stack MERN Developer & AI/ML Enthusiast with 2+ years of experience building scalable web solutions, RESTful APIs, and computer vision systems.">
+  <meta name="keywords" content="MERN Stack Developer, Full Stack Developer, React Developer, Node.js Developer, Muhammad Bilal Naveed, UET Lahore, Lahore, Web Developer Portfolio, Python Developer, AI Engineer">
+  <meta name="author" content="Muhammad Bilal Naveed">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Muhammad Bilal Naveed | MERN Stack Developer">
+  <meta property="og:description" content="Explore portfolio projects, skills, and experience of Muhammad Bilal Naveed, MERN Stack and AI/ML developer.">
+  
+  <!-- Stylesheet -->
+  <script type="module" crossorigin src="/assets/index-DF8WifBn.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BhANjwYN.css">
+</head>
+<body>
+
+  <!-- Interactive Particle Background Canvas -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- Glowing Background Orbs -->
+  <div class="bg-glow-container">
+    <div class="bg-glow-1"></div>
+    <div class="bg-glow-2"></div>
+  </div>
+
+  <div class="app-container">
+    
+    <!-- Header / Navigation -->
+    <header id="main-header">
+      <div class="container nav-wrapper">
+        <a href="#hero" class="logo" id="nav-logo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+          M. Bilal<span>Naveed</span>
+        </a>
+        
+        <nav>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#hero" id="lnk-home">Home</a></li>
+            <li><a href="#recruiter-hub" id="lnk-recruiter">Hire Me</a></li>
+            <li><a href="#skills" id="lnk-skills">Skills</a></li>
+            <li><a href="#projects" id="lnk-projects">Projects</a></li>
+            <li><a href="#experience" id="lnk-experience">Experience</a></li>
+            <li><a href="#contact" id="lnk-contact">Contact</a></li>
+          </ul>
+        </nav>
+        
+        <div class="nav-actions">
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Light and Dark Mode" style="margin-right: 0.8rem;">
+            <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="display: none;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+            <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          </button>
+          <a href="#recruiter-hub" class="btn btn-recruiter" id="btn-header-recruiter">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            Hire Me
+          </a>
+        </div>
+        
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      
+      <!-- Hero Section -->
+      <section id="hero" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <div class="badge-tag" id="hero-badge">
+              <span class="text-cyan">●</span> MERN Stack & AI/ML
+            </div>
+            <h1 id="hero-title">Muhammad <br><span class="gradient-text-cyan">Bilal Naveed</span></h1>
+            <h2 class="subtitle" id="hero-subtitle">Full Stack MERN Developer | AI/ML Enthusiast</h2>
+            <p id="hero-pitch">
+              Building robust, scalable web solutions from database to user interface. Over 2+ years of experience engineering real estate ERP SaaS, animated LMS systems, automated crawlers, and AI-powered interfaces.
+            </p>
+            <div class="hero-cta">
+              <a href="#recruiter-hub" class="btn btn-primary" id="btn-hero-recruiter">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+                Hire Mode
+              </a>
+              <a href="bilalnaveed-resume.pdf" download class="btn btn-secondary" id="btn-hero-resume">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Download CV
+              </a>
+            </div>
+          </div>
+          
+          <div class="hero-visual">
+            <div class="profile-hex-container">
+              <div class="profile-glow-ring"></div>
+              <div class="profile-card-inner">
+                <img src="/assets/profile-DLFrMlXH.jpeg" alt="Muhammad Bilal Naveed" onerror="this.style.display='none'; document.getElementById('profile-fallback').style.display='flex';">
+                <div class="profile-img-fallback" id="profile-fallback" style="display: none;">
+                  <div class="initials">MBN</div>
+                  <div class="tech-sub">MERN Developer</div>
+                </div>
+              </div>
+            </div>
+            <div class="hero-stats-panel glass-card" id="hero-stats">
+              <div class="stat-item">
+                <span class="stat-num">2+ Yrs</span>
+                <span class="stat-lbl">Experience</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recruiter Hub / Fast-Track Dashboard -->
+      <section id="recruiter-hub" class="recruiter-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-pre">Recruiters & Hiring Managers</span>
+            <h2 class="section-title" id="recruiter-section-title">Hire <span class="text-gold">Me Hub</span></h2>
+            <p>I value your time. This dashboard highlights my key qualifications immediately and lets you dynamically search my projects and skills by stack.</p>
+          </div>
+          
+          <div class="recruiter-grid">
+            <!-- Stats & Quick Actions -->
+            <div class="glass-card recruiter-dashboard" id="recruiter-dashboard">
+              <div class="recruiter-dashboard-header">
+                <div class="recruiter-title">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                  <h3>Candidate Overview</h3>
+                </div>
+                <span class="recruiter-status-tag">Ready to Hire</span>
+              </div>
+              
+              <div class="recruiter-stats">
+                <div class="recruiter-stat-card">
+                  <div class="val">MERN</div>
+                  <div class="lbl">Core Stack</div>
+                </div>
+                <div class="recruiter-stat-card">
+                  <div class="val">3.4</div>
+                  <div class="lbl">UET Lahore GPA</div>
+                </div>
+                <div class="recruiter-stat-card">
+                  <div class="val">10+</div>
+                  <div class="lbl">Projects Built</div>
+                </div>
+              </div>
+              
+              <div class="recruiter-quick-actions">
+                <div class="form-group">
+                  <label>Quick Connect</label>
+                  <div class="copy-email-box">
+                    <span class="email-val" id="email-text">bilalnaveed4520@gmail.com</span>
+                    <button class="btn-copy" id="btn-copy-email" style="position: relative;">
+                      <span class="copied-tooltip" id="copy-tooltip">Copied!</span>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                      Copy Email
+                    </button>
+                  </div>
+                </div>
+                
+                <a href="bilalnaveed-resume.pdf" download class="btn btn-secondary" style="width: 100%; justify-content: center; border-color: var(--accent-gold); color: #fff;" id="btn-recruiter-resume">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                  Get One-Pager Resume PDF
+                </a>
+              </div>
+            </div>
+            
+            <!-- Quick Stack Checker -->
+            <div class="glass-card recruiter-search-panel" id="recruiter-search-panel">
+              <h3>Quick Tech Stack Matcher</h3>
+              <p>Type a technology below (e.g., <em>React, Node, Python, OpenCV</em>) or click a shortcut. The portfolio will instantly highlight skills and filter matching projects.</p>
+              
+              <div class="search-box-wrapper">
+                <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" class="search-input" id="stack-search" placeholder="Type technology (e.g. React, MongoDB)...">
+              </div>
+              
+              <div class="recruiter-presets">
+                <span class="preset-tag" data-tech="mern">MERN Stack</span>
+                <span class="preset-tag" data-tech="react">React.js</span>
+                <span class="preset-tag" data-tech="node">Node.js</span>
+                <span class="preset-tag" data-tech="python">Python</span>
+                <span class="preset-tag" data-tech="opencv">OpenCV</span>
+                <span class="preset-tag" data-tech="gemini">Gemini AI</span>
+                <span class="preset-tag" data-tech="mongodb">MongoDB</span>
+              </div>
+              
+              <div class="recruiter-search-results" id="search-feedback">
+                Showing all 6 projects
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-pre">Skills Inventory</span>
+            <h2 class="section-title" id="skills-title">Technical Expertise</h2>
+            <p>Structured capabilities mapping back to my production experience and coursework at UET Lahore.</p>
+          </div>
+          
+          <div class="skills-container">
+            <div class="skills-row-grid">
+              
+              <!-- Frontend -->
+              <div class="glass-card skill-category-card" id="skill-cat-frontend">
+                <h3>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-cyan)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                  Frontend Core
+                </h3>
+                <div class="skills-list" id="skills-list-frontend">
+                  <span class="skill-tag" data-skill="React.js">React.js</span>
+                  <span class="skill-tag" data-skill="Next.js">Next.js</span>
+                  <span class="skill-tag" data-skill="React Native">React Native</span>
+                  <span class="skill-tag" data-skill="Tailwind CSS">Tailwind CSS</span>
+                  <span class="skill-tag" data-skill="HTML5">HTML5 / CSS3</span>
+                  <span class="skill-tag" data-skill="JavaScript">JavaScript (ES6+)</span>
+                </div>
+              </div>
+              
+              <!-- Backend -->
+              <div class="glass-card skill-category-card" id="skill-cat-backend">
+                <h3>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                  Backend & Database
+                </h3>
+                <div class="skills-list" id="skills-list-backend">
+                  <span class="skill-tag" data-skill="Node.js">Node.js</span>
+                  <span class="skill-tag" data-skill="Express.js">Express.js</span>
+                  <span class="skill-tag" data-skill="Django">Django</span>
+                  <span class="skill-tag" data-skill="MongoDB">MongoDB</span>
+                  <span class="skill-tag" data-skill="PostgreSQL">PostgreSQL</span>
+                  <span class="skill-tag" data-skill="SQLite">SQLite</span>
+                  <span class="skill-tag" data-skill="RESTful API Design">RESTful APIs</span>
+                </div>
+              </div>
+              
+              <!-- AI/ML & Python -->
+              <div class="glass-card skill-category-card" id="skill-cat-ai">
+                <h3>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                  AI/ML & Python
+                </h3>
+                <div class="skills-list" id="skills-list-ai">
+                  <span class="skill-tag" data-skill="Python">Python</span>
+                  <span class="skill-tag" data-skill="Google Gemini">Google Gemini</span>
+                  <span class="skill-tag" data-skill="OpenAI API">OpenAI API</span>
+                  <span class="skill-tag" data-skill="Llama">Llama / Dolphin</span>
+                  <span class="skill-tag" data-skill="Computer Vision">OpenCV</span>
+                  <span class="skill-tag" data-skill="MediaPipe">MediaPipe</span>
+                </div>
+              </div>
+              
+            </div>
+            
+            <div class="skills-row-grid">
+              <!-- Tools & Platforms -->
+              <div class="glass-card skill-category-card" id="skill-cat-tools" style="grid-column: span 3;">
+                <h3>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--text-primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                  Tools, Platforms & Others
+                </h3>
+                <div class="skills-list" id="skills-list-tools">
+                  <span class="skill-tag" data-skill="Git">Git</span>
+                  <span class="skill-tag" data-skill="GitHub">GitHub</span>
+                  <span class="skill-tag" data-skill="Docker">Docker</span>
+                  <span class="skill-tag" data-skill="Postman">Postman</span>
+                  <span class="skill-tag" data-skill="Vercel">Vercel</span>
+                  <span class="skill-tag" data-skill="GitLab">GitLab / Bitbucket</span>
+                  <span class="skill-tag" data-skill="VS Code">VS Code</span>
+                  <span class="skill-tag" data-skill="Agile/Scrum">Agile/Scrum</span>
+                  <span class="skill-tag" data-skill="UI/UX Design">UI/UX Design</span>
+                  <span class="skill-tag" data-skill="Project Management">Project Management</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-pre">Production & Personal Highlights</span>
+            <h2 class="section-title" id="projects-title">Featured Projects</h2>
+            <p>A selection of projects ranging from enterprise SaaS platforms to computer vision and AI integrations.</p>
+          </div>
+          
+          <div class="project-filters" id="project-filters">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="mern">MERN Stack</button>
+            <button class="filter-btn" data-filter="ai-python">AI/ML & Python</button>
+            <button class="filter-btn" data-filter="tools">Automation Tools</button>
+          </div>
+          
+          <div class="projects-grid" id="projects-grid">
+            
+            <!-- Project 1: Smart City ERP -->
+            <article class="glass-card project-card" data-categories="mern" data-tech="React.js Node.js Express.js MongoDB Tailwind CSS ERP SaaS SaaS Real Estate" id="proj-smartcity">
+              <div class="project-visual">
+                <div class="project-visual-overlay"></div>
+                <div class="project-icon-wrapper">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-title-wrapper">
+                  <h3>Smart City</h3>
+                  <span class="project-metric-tag">80% Automation</span>
+                </div>
+                <p>Architected a multi-tenant Real Estate ERP SaaS covering finance, interactive plot mapping, and 10+ business modules. Automated booking, payment, and legal property workflows.</p>
+                <div class="project-tags">
+                  <span class="project-tag">React.js</span>
+                  <span class="project-tag">Node.js</span>
+                  <span class="project-tag">MongoDB</span>
+                  <span class="project-tag">Tailwind CSS</span>
+                </div>
+              </div>
+              <div class="project-action-bar">
+                <span class="project-link-more" data-project-id="smartcity">
+                  View Case Study
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </span>
+                <span class="project-repo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></span>
+              </div>
+            </article>
+            
+            <!-- Project 2: KidsHub LMS -->
+            <article class="glass-card project-card" data-categories="mern" data-tech="React.js Node.js Express.js MongoDB Flutter LMS Learning Game Animation" id="proj-kidshub">
+              <div class="project-visual">
+                <div class="project-visual-overlay"></div>
+                <div class="project-icon-wrapper">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-title-wrapper">
+                  <h3>KidsHub</h3>
+                  <span class="project-metric-tag">4 Dashboards</span>
+                </div>
+                <p>An animation-enriched LMS for school-age students featuring interactive games, quizzes, and role-based student/teacher/parent/admin dashboard interfaces.</p>
+                <div class="project-tags">
+                  <span class="project-tag">React.js</span>
+                  <span class="project-tag">Node.js</span>
+                  <span class="project-tag">MongoDB</span>
+                  <span class="project-tag">Flutter (Mobile)</span>
+                </div>
+              </div>
+              <div class="project-action-bar">
+                <span class="project-link-more" data-project-id="kidshub">
+                  View Case Study
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </span>
+                <span class="project-repo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></span>
+              </div>
+            </article>
+            
+            <!-- Project 3: AI Chatbot -->
+            <article class="glass-card project-card" data-categories="mern ai-python" data-tech="MERN Stack Google Gemini OpenAI Node.js React.js MongoDB JWT Chat Bot conversational" id="proj-aichatbot">
+              <div class="project-visual">
+                <div class="project-visual-overlay"></div>
+                <div class="project-icon-wrapper">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-title-wrapper">
+                  <h3>Gemini Chatbot</h3>
+                  <span class="project-metric-tag">Gemini API</span>
+                </div>
+                <p>Full stack conversational AI platform featuring real-time context-aware chats, OTP-based passwordless email authentication, and persistent chat histories.</p>
+                <div class="project-tags">
+                  <span class="project-tag">React.js</span>
+                  <span class="project-tag">Google Gemini</span>
+                  <span class="project-tag">Nodemailer</span>
+                  <span class="project-tag">MongoDB</span>
+                </div>
+              </div>
+              <div class="project-action-bar">
+                <span class="project-link-more" data-project-id="aichatbot">
+                  View Case Study
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </span>
+                <span class="project-repo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></span>
+              </div>
+            </article>
+            
+            <!-- Project 4: Eye-Controlled Mouse -->
+            <article class="glass-card project-card" data-categories="ai-python" data-tech="Python OpenCV MediaPipe PyAutoGUI Accessibility Computer Vision Gaze Click" id="proj-eyemouse">
+              <div class="project-visual">
+                <div class="project-visual-overlay"></div>
+                <div class="project-icon-wrapper">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-title-wrapper">
+                  <h3>Eye-Controlled Mouse</h3>
+                  <span class="project-metric-tag">OpenCV CV</span>
+                </div>
+                <p>Accessibility tool enabling hands-free cursor navigation using face landmark tracking and gaze direction. Implements blink triggers for clicks, double clicks, and presses.</p>
+                <div class="project-tags">
+                  <span class="project-tag">Python</span>
+                  <span class="project-tag">OpenCV</span>
+                  <span class="project-tag">MediaPipe</span>
+                  <span class="project-tag">PyAutoGUI</span>
+                </div>
+              </div>
+              <div class="project-action-bar">
+                <span class="project-link-more" data-project-id="eyemouse">
+                  View Case Study
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </span>
+                <span class="project-repo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></span>
+              </div>
+            </article>
+            
+            <!-- Project 5: Web Crawler -->
+            <article class="glass-card project-card" data-categories="tools" data-tech="JavaScript Node.js Puppeteer Cheerio Web Scraping Crawler Automation" id="proj-crawler">
+              <div class="project-visual">
+                <div class="project-visual-overlay"></div>
+                <div class="project-icon-wrapper">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-title-wrapper">
+                  <h3>Web Lead Crawler</h3>
+                  <span class="project-metric-tag">Automation</span>
+                </div>
+                <p>Automated lead generation tool utilizing headless browsers to scrape, parse, and structure contact and company information for targeted advertising campaigns.</p>
+                <div class="project-tags">
+                  <span class="project-tag">Node.js</span>
+                  <span class="project-tag">Puppeteer</span>
+                  <span class="project-tag">Cheerio</span>
+                  <span class="project-tag">JavaScript</span>
+                </div>
+              </div>
+              <div class="project-action-bar">
+                <span class="project-link-more" data-project-id="crawler">
+                  View Case Study
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </span>
+                <span class="project-repo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></span>
+              </div>
+            </article>
+            
+            <!-- Project 6: Smart Quest System -->
+            <article class="glass-card project-card" data-categories="tools" data-tech="Django Python SQLite JavaScript CSS HTML Request Academic Hierarchy" id="proj-smartquest">
+              <div class="project-visual">
+                <div class="project-visual-overlay"></div>
+                <div class="project-icon-wrapper">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                </div>
+              </div>
+              <div class="project-info">
+                <div class="project-title-wrapper">
+                  <h3>Smart Quest</h3>
+                  <span class="project-metric-tag">Role-Based</span>
+                </div>
+                <p>Role-based academic request tracker. Streamlines student petition submissions through automated approval hierarchies and deadline-based auto-escalations.</p>
+                <div class="project-tags">
+                  <span class="project-tag">Django</span>
+                  <span class="project-tag">Python</span>
+                  <span class="project-tag">SQLite</span>
+                  <span class="project-tag">HTML / CSS</span>
+                </div>
+              </div>
+              <div class="project-action-bar">
+                <span class="project-link-more" data-project-id="smartquest">
+                  View Case Study
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </span>
+                <span class="project-repo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></span>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience & Education -->
+      <section id="experience">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-pre">Qualifications & History</span>
+            <h2 class="section-title" id="timeline-title">Experience & Education</h2>
+            <p>Chronological summary of my professional software internships and academic degrees.</p>
+          </div>
+          
+          <div class="timeline-container">
+            <!-- Experience -->
+            <div class="timeline-column" id="experience-col">
+              <h3>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                Experience
+              </h3>
+              <div class="timeline-items">
+                
+                <div class="timeline-item" id="exp-softsincs">
+                  <div class="timeline-item-header">
+                    <h4 class="timeline-title">Software Development Intern (MERN Stack)</h4>
+                    <span class="timeline-date">06/2023 - 09/2023</span>
+                  </div>
+                  <div class="timeline-org">Softsincs | Lahore, Pakistan</div>
+                  <div class="timeline-desc">
+                    <ul>
+                      <li>Developed and maintained React.js frontend components for a live production MERN application, improving UI consistency across key user flows.</li>
+                      <li>Built and integrated RESTful API endpoints using Node.js and Express.js, implementing schema validation and MongoDB database queries.</li>
+                      <li>Collaborated with senior engineers in an Agile/Scrum ecosystem to implement visual enhancements and hotfixes on tight schedules.</li>
+                      <li>Engaged in code reviews and gained valuable knowledge regarding automated staging and production deployment workflows.</li>
+                    </ul>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            
+            <!-- Education -->
+            <div class="timeline-column" id="education-col">
+              <h3>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path></svg>
+                Education
+              </h3>
+              <div class="timeline-items">
+                
+                <div class="timeline-item" id="edu-uet">
+                  <div class="timeline-item-header">
+                    <h4 class="timeline-title">BS in Computer Science</h4>
+                    <span class="timeline-date">CGPA: 3.4 / 4.0</span>
+                  </div>
+                  <div class="timeline-org">University of Engineering and Technology (UET), Lahore</div>
+                  <div class="timeline-desc">
+                    <p>Rigorous study focusing on core computing principles, algorithms, and software engineering methodologies.</p>
+                    <div class="coursework-grid">
+                      <span class="course-tag">Data Structures</span>
+                      <span class="course-tag">Algorithms</span>
+                      <span class="course-tag">Database Systems</span>
+                      <span class="course-tag">Machine Learning</span>
+                      <span class="course-tag">Parallel Programming</span>
+                      <span class="course-tag">Software Engineering</span>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-pre">Get In Touch</span>
+            <h2 class="section-title" id="contact-title">Let's Work Together</h2>
+            <p>Have an open MERN developer role, an AI/ML project, or just want to connect? Reach out using the form below or direct contacts.</p>
+          </div>
+          
+          <div class="contact-grid">
+            <div class="contact-info" id="contact-details">
+              
+              <div class="glass-card contact-card">
+                <div class="contact-card-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="contact-details">
+                  <h4>Email</h4>
+                  <a href="mailto:bilalnaveed4520@gmail.com">bilalnaveed4520@gmail.com</a>
+                </div>
+              </div>
+              
+              <div class="glass-card contact-card">
+                <div class="contact-card-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div class="contact-details">
+                  <h4>Phone</h4>
+                  <a href="tel:+923195484871">+92 319 5484871</a>
+                </div>
+              </div>
+              
+              <div class="glass-card contact-card">
+                <div class="contact-card-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="contact-details">
+                  <h4>Location</h4>
+                  <p>Lahore, Pakistan</p>
+                </div>
+              </div>
+              
+              <div class="social-links">
+                <a href="https://www.linkedin.com/in/imuhammadbilalnaveed" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="https://github.com/bilalnaveed-dev" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+              
+            </div>
+            
+            <div class="glass-card contact-form-card contact-form-container">
+              <!-- Web3Forms Submission API -->
+              <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                
+                <!-- Web3Forms Key (User replaces this with their live key, default public access) -->
+                <input type="hidden" name="access_key" value="5c2857d3-8a81-4c61-954d-d0f158fd776a">
+                <input type="hidden" name="subject" value="New Portfolio Contact Form Submission">
+                <input type="checkbox" name="botcheck" id="" style="display: none;">
+                
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label for="frm-name">Your Name</label>
+                    <input type="text" id="frm-name" name="name" class="form-input" placeholder="John Doe" required>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="frm-email">Email Address</label>
+                    <input type="email" id="frm-email" name="email" class="form-input" placeholder="john@example.com" required>
+                  </div>
+                  
+                  <div class="form-group form-group-full">
+                    <label for="frm-subject">Subject</label>
+                    <input type="text" id="frm-subject" name="subject_title" class="form-input" placeholder="MERN Developer Opening / Project Idea" required>
+                  </div>
+                  
+                  <div class="form-group form-group-full">
+                    <label for="frm-msg">Your Message</label>
+                    <textarea id="frm-msg" name="message" class="form-input" placeholder="Hello Bilal, we would like to interview you for..." required></textarea>
+                  </div>
+                </div>
+                
+                <div class="form-btn-wrapper">
+                  <button type="submit" class="btn btn-primary" id="btn-submit-form">
+                    <span id="btn-text">Send Message</span>
+                    <svg id="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                    <svg id="btn-spinner" class="spinner" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="display: none; animation: rotate-gradient 1s linear infinite;"><circle cx="12" cy="12" r="10" stroke="rgba(0,0,0,0.1)"></circle><path d="M12 2a10 10 0 0 1 10 10" stroke="currentColor"></path></svg>
+                  </button>
+                </div>
+              </form>
+              
+              <!-- Custom Form Success Overlay -->
+              <div class="form-feedback-overlay" id="form-success-overlay">
+                <div class="feedback-icon-box">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                </div>
+                <h3>Message Sent!</h3>
+                <p>Thank you for reaching out. Your message has been forwarded successfully. I will respond to your email as soon as possible.</p>
+                <button class="btn btn-secondary" id="btn-close-feedback">Send Another</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer-wrapper">
+        <a href="#hero" class="footer-logo">
+          M. Bilal<span>Naveed</span>
+        </a>
+        <ul class="footer-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#recruiter-hub">Hire Me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="social-links" style="margin-top: 0.8rem; margin-bottom: 0.2rem;">
+          <a href="https://www.linkedin.com/in/imuhammadbilalnaveed" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+          <a href="https://github.com/bilalnaveed-dev" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Case Study Lightbox Modal -->
+  <div class="modal-overlay" id="case-study-modal" role="dialog" aria-modal="true">
+    <div class="glass-card modal-card">
+      <button class="btn-modal-close" id="btn-modal-close" aria-label="Close case study details">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      
+      <div class="modal-hero">
+        <div class="modal-hero-glow"></div>
+        <div class="modal-hero-content">
+          <span class="subtitle" id="modal-sub">MERN ERP SaaS</span>
+          <h2 id="modal-title">Smart City Platform</h2>
+        </div>
+      </div>
+      
+      <div class="modal-body" id="modal-body-content">
+        <!-- Will be loaded dynamically via Javascript -->
+      </div>
+      
+      <div class="modal-footer">
+        <span class="btn btn-secondary" id="btn-modal-close-footer">Close Details</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Application Script -->
+</body>
+</html>
